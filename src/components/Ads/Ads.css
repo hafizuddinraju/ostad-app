@@ -1,0 +1,27 @@
+.ads-parent{
+    height: 225px;
+
+/* Black/100% */
+background: #101828;
+}
+.ads-top-text{
+    text-align: center;
+    padding-top: 15px;
+    color: #FFFFFF;
+}
+.slider-ads-info{
+    margin-top: 20px;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+@media (max-width: 575px){
+    .slider-ads-info{
+    margin-top: 20px;
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+.img-ads-control{
+    margin: auto;
+}
+
+}

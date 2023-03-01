@@ -1,0 +1,39 @@
+.workshop-parent {
+  background: #f9f9fa;
+  padding-bottom: 118px;
+}
+.workshop-div {
+  background: #ffffff;
+  border: 1px solid #eaecf0;
+  border-radius: 7px;
+  margin-top: 72px;
+  margin-left: 25vh;
+  margin-right: 25vh;
+  padding: 12px;
+}
+.img-workshop{
+    display: flex;
+    align-items: center;
+    
+}
+@media (max-width:575px){
+    .workshop-parent {
+        background: #f9f9fa;
+      }
+      .workshop-div {
+        background: #ffffff;
+        border: 1px solid #eaecf0;
+        border-radius: 7px;
+        margin-top: 72px;
+        margin-left: 5vh;
+        margin-right: 5vh;
+        padding: 24px;
+      }
+      .img-workshop{
+          display: flex;
+          align-items: center;
+          
+      }
+      
+
+}

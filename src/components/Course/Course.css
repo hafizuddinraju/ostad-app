@@ -1,0 +1,558 @@
+.Course-parent {
+  background: #f9f9fa;
+}
+.img-text-control-course {
+  padding-top: 80px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-left: 25vh;
+}
+.text-p-course {
+  margin-top: 16px;
+  margin-left: 25vh;
+  margin-bottom: 16px;
+}
+.hr-course {
+  max-width: 1040px;
+  margin: auto;
+}
+.all-courses {
+  margin-top: 16px;
+  background: #ffffff;
+  border-radius: 7px;
+  margin-left: 25vh;
+  margin-right: 25vh;
+  padding: 12px;
+}
+.live-course {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.image-course-slide {
+  width: 300px;
+  height: 192px;
+  border-radius: 10px 10px 0 0;
+}
+.course-btn-control1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 300px;
+  height: 40px;
+  gap: 15px;
+  background: #1d2939;
+}
+.card-parent-div-course {
+  width: 300px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  background: #1d2939;
+}
+.card-parent-div-course:hover {
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: #1d2939;
+}
+.btn-class-course1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 4px;
+  font-size: 10px;
+  color: white;
+  width: 56px;
+  height: 24px;
+  border: none;
+  /* Black/100% */
+  background: #101828;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.btn-class-course2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 4px;
+  font-size: 10px;
+  color: white;
+  width: 110px;
+  height: 24px;
+  border: none;
+  /* Black/100% */
+  background: #475467;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.btn-class-course3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 4px;
+  font-size: 10px;
+  color: white;
+  width: 90px;
+  height: 24px;
+  border: none;
+  /* Black/100% */
+  background: #475467;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-left: 0px;
+}
+.text-card-course-div-name {
+  width: 300px;
+  height: 68px;
+  text-align: center;
+  padding: 6px 0px;
+  background: #ffffff;
+}
+.card-footer-control {
+  width: 300px;
+  height: 71px;
+  position: relative;
+  /* Black/BG */
+  padding: 5px 0px;
+  background: #f9f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0 0 10px 10px;
+}
+.discount {
+  color: #ff8c4b;
+  position: relative;
+}
+.hr-course-card {
+  width: 80px;
+  position: absolute;
+  top: 28%;
+  background: #ff8c4b;
+}
+.btn-class-course4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 4px;
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+  width: 156px;
+  border: none;
+  height: 40px;
+
+  background: #eaecf0;
+  border-radius: 6px;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.taka-discount {
+  margin-left: 10px;
+}
+.details-btn {
+  margin-right: 10px;
+}
+.grid-card-course {
+    margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 20px;
+}
+.text-card-course-div-name h2{
+    font-size: 20px;
+}
+@media (max-width: 575px){
+    .Course-parent {
+        background: #f9f9fa;
+      }
+      .img-text-control-course {
+        padding-top: 80px;
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        margin-left: 5vh;
+      }
+      .img-text-control-course h1{
+        font-size: 13px;
+      }
+      .text-p-course {
+        margin-top: 16px;
+        margin-left: 5vh;
+        margin-right: 5vh;
+        margin-bottom: 16px;
+        font-size: 12px;
+        text-align: justify;
+      }
+      .hr-course {
+        max-width: 1040px;
+        margin: auto;
+      }
+      .all-courses {
+        margin-top: 16px;
+        background: #ffffff;
+        border-radius: 7px;
+        margin-left: 5vh;
+        margin-right: 5vh;
+        padding: 20px;
+      }
+      .live-course {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      .image-course-slide {
+        width: 250px;
+        height: 152px;
+        border-radius: 10px 10px 0 0;
+      }
+      .course-btn-control1 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 250px;
+        height: 40px;
+        gap: 15px;
+        background: #1d2939;
+      }
+      .card-parent-div-course {
+        width: 250px;
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+        background: #1d2939;
+        margin: auto;
+      }
+      .card-parent-div-course:hover {
+        width: 250px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background: #1d2939;
+        margin: auto;
+      }
+      .btn-class-course1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 8px;
+        gap: 4px;
+        font-size: 8px;
+        color: white;
+        width: 56px;
+        height: 24px;
+        border: none;
+        /* Black/100% */
+        background: #101828;
+        border-radius: 4px;
+        margin-top: 5px;
+        margin-left: 5px;
+      }
+      .btn-class-course2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 8px;
+        gap: 4px;
+        font-size: 7px;
+        color: white;
+        width: 110px;
+        height: 24px;
+        border: none;
+        /* Black/100% */
+        background: #475467;
+        border-radius: 4px;
+        margin-top: 5px;
+        margin-left: 5px;
+      }
+      .btn-class-course3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 8px;
+        gap: 2px;
+        font-size: 8px;
+        color: white;
+        width: 90px;
+        height: 24px;
+        border: none;
+        /* Black/100% */
+        background: #475467;
+        border-radius: 4px;
+        margin-top: 5px;
+        margin-left: 0px;
+        margin-right: 5px;
+      }
+      .text-card-course-div-name {
+        width: 250px;
+        height: 68px;
+        text-align: center;
+        padding: 6px 0px;
+        background: #ffffff;
+      }
+      .card-footer-control {
+        width: 250px;
+        height: 71px;
+        position: relative;
+        /* Black/BG */
+        padding: 5px 0px;
+        background: #f9f9fa;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 0 0 10px 10px;
+      }
+      .discount {
+        color: #ff8c4b;
+        position: relative;
+      }
+      .hr-course-card {
+        width: 80px;
+        position: absolute;
+        top: 20%;
+        background: #ff8c4b;
+      }
+      .btn-class-course4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 8px;
+        gap: 4px;
+        font-size: 8px;
+        font-weight: 700;
+        color: black;
+        width: 100px;
+        border: none;
+        height: 30px;
+      
+        background: #eaecf0;
+        border-radius: 6px;
+        border-radius: 4px;
+        margin-top: 5px;
+        margin-left: 5px;
+      }
+      .taka-discount {
+        margin-left: 10px;
+      }
+      .details-btn {
+        margin-right: 10px;
+      }
+      .grid-card-course {
+          
+        display: none;
+        
+      }
+    
+
+}
+@media (min-width : 576px) and (max-width:900px){
+    .Course-parent {
+        background: #f9f9fa;
+      }
+      .img-text-control-course {
+        padding-top: 80px;
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        margin-left: 5vh;
+      }
+      .img-text-control-course h1{
+        font-size: 13px;
+      }
+      .text-p-course {
+        margin-top: 16px;
+        margin-left: 5vh;
+        margin-right: 5vh;
+        margin-bottom: 16px;
+        font-size: 12px;
+        text-align: justify;
+      }
+      .hr-course {
+        max-width: 1040px;
+        margin: auto;
+      }
+      .all-courses {
+        margin-top: 16px;
+        background: #ffffff;
+        border-radius: 7px;
+        margin-left: 5vh;
+        margin-right: 5vh;
+        padding: 20px;
+      }
+      .live-course {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      .image-course-slide {
+        width: 300px;
+        height: 192px;
+        border-radius: 10px 10px 0 0;
+      }
+      .course-btn-control1 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 300px;
+        height: 40px;
+        gap: 15px;
+        background: #1d2939;
+      }
+      .card-parent-div-course {
+        width: 300px;
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+        background: #1d2939;
+        margin: auto;
+      }
+      .card-parent-div-course:hover {
+        width: 300px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background: #1d2939;
+        margin: auto;
+      }
+      .btn-class-course1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 8px;
+        gap: 4px;
+        font-size: 10px;
+        color: white;
+        width: 56px;
+        height: 24px;
+        border: none;
+        /* Black/100% */
+        background: #101828;
+        border-radius: 4px;
+        margin-top: 5px;
+        margin-left: 5px;
+      }
+      .btn-class-course2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 8px;
+        gap: 4px;
+        font-size: 10px;
+        color: white;
+        width: 110px;
+        height: 24px;
+        border: none;
+        /* Black/100% */
+        background: #475467;
+        border-radius: 4px;
+        margin-top: 5px;
+        margin-left: 5px;
+      }
+      .btn-class-course3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 8px;
+        gap: 4px;
+        font-size: 10px;
+        color: white;
+        width: 90px;
+        height: 24px;
+        border: none;
+        /* Black/100% */
+        background: #475467;
+        border-radius: 4px;
+        margin-top: 5px;
+        margin-left: 0px;
+      }
+      .text-card-course-div-name {
+        width: 300px;
+        height: 68px;
+        text-align: center;
+        padding: 6px 0px;
+        background: #ffffff;
+      }
+      .card-footer-control {
+        width: 300px;
+        height: 71px;
+        position: relative;
+        /* Black/BG */
+        padding: 5px 0px;
+        background: #f9f9fa;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 0 0 10px 10px;
+      }
+      .discount {
+        color: #ff8c4b;
+        position: relative;
+      }
+      .hr-course-card {
+        width: 80px;
+        position: absolute;
+        top: 28%;
+        background: #ff8c4b;
+      }
+      .btn-class-course4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 8px;
+        gap: 4px;
+        font-size: 15px;
+        font-weight: 700;
+        color: black;
+        width: 156px;
+        border: none;
+        height: 40px;
+      
+        background: #eaecf0;
+        border-radius: 6px;
+        border-radius: 4px;
+        margin-top: 5px;
+        margin-left: 5px;
+      }
+      .taka-discount {
+        margin-left: 10px;
+      }
+      .details-btn {
+        margin-right: 10px;
+      }
+      .grid-card-course {
+          
+        display: none;
+        
+      }
+    
+    
+}
+@media (min-width : 901px) and (max-width:1200px){
+  .grid-card-course {
+          
+    display: none;
+    
+  }
+
+}
+@media (min-width:1201px) and (max-width:2100px){
+.mobile-course-design{
+    display: none;
+}
+}

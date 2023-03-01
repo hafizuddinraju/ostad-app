@@ -1,0 +1,94 @@
+.Course-video-parent{
+   max-width: 1440px;
+height: 665px;
+
+
+/* White */
+background: #FFFFFF;
+}
+.card-workshop-design{
+    width: 250px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    margin: auto;
+}
+.card-workshop-design:hover{
+    width: 250px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    margin: auto;
+}
+.img-div-workshop{
+    width: 250px;
+}
+.time-workshop{
+    display: flex;
+    align-items: center;
+}
+.time-workshop-parent{
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+.card-workshop-design p{
+    padding: 10px;
+
+}
+.card-workshop-design h4{
+    padding: 10px;
+
+}
+.div-workshop-slider{
+    margin-top: 7vh;
+    margin-left: 25vh;
+    margin-right: 25vh;
+}
+
+@media (max-width: 575px){
+    .Course-video-parent{
+        max-width: 1440px;
+     height: 665px;
+     
+     
+     /* White */
+     background: #FFFFFF;
+     }
+     .card-workshop-design{
+         width: 250px;
+         border: 1px solid gainsboro;
+         border-radius: 10px;
+         margin: auto;
+     }
+     .card-workshop-design:hover{
+         width: 250px;
+         border: 1px solid orange;
+         border-radius: 10px;
+     }
+     .img-div-workshop{
+         width: 250px;
+     }
+     .time-workshop{
+         display: flex;
+         align-items: center;
+     }
+     .time-workshop-parent{
+         display: flex;
+         gap: 30px;
+         padding: 10px;
+     }
+     .card-workshop-design p{
+         padding: 10px;
+     
+     }
+     .card-workshop-design h4{
+         padding: 10px;
+     
+     }
+     .div-workshop-slider{
+         margin-top: 7vh;
+         margin-left: 5vh;
+         margin-right: 5vh;
+     }
+
+
+}
