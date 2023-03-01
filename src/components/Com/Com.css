@@ -82,15 +82,25 @@ gap: 15px;
 .profile-card-com-design{
     position: relative;
     margin: auto;
+    width: 200px;
+    
 }
 .profile-card-com-design:hover{
-  
+    width: 200px;
     position: relative;
     margin: auto;
+    border-radius: 10px;
+    
+    
 }
 .img-profile-com-size{
     width: 200px;
     border-radius: 10px;
+}
+.img-profile-com-size:hover{
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid gray;
 }
 .profile-info{
     width: 200px;
@@ -142,12 +152,33 @@ gap: 15px;
         display: none;
         
     }
+    .profile-card-com-design{
+      position: relative;
+      width: 200px;
+      margin: auto;
+  }
+  .profile-card-com-design:hover{
+    width: 200px;
+      position: relative;
+      margin: auto;
+      
+      border-radius: 10px;
+  }
+  .img-profile-com-size{
+    width: 200px;
+    border-radius: 10px;
+}
+  .img-profile-com-size:hover{
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
     .profile-com-show{
         margin-top: 30px;
     }
     .profile-card-info{
-        margin-left: 15vh;
-        margin-right: 15vh;
+        margin-left: 5vh;
+        margin-right: 5vh;
     }
     .Com-parent {
         background: #f9f9fa;
@@ -189,16 +220,19 @@ gap: 15px;
         border-radius: 4px;
       }
       .com-card-design:hover {
-        width: 480px;
-        height: 158px;
+        width: 240px;
+        height: auto;
+        margin: auto;
        padding: 10px;
         background: #ffffff;
       display: flex;
+      flex-direction: column;
       gap: 15px;
         /* Black/Opac */
         border: 1px solid orange;
         border-radius: 4px;
       }
+      
       .div-com h3{
           margin-top: 20px;
           font-size: 16px;
@@ -230,6 +264,27 @@ gap: 15px;
         display: none;
         
     }
+    .profile-card-com-design{
+      position: relative;
+      width: 200px;
+      margin: auto;
+  }
+  .profile-card-com-design:hover{
+    width: 200px;
+      position: relative;
+      margin: auto;
+      
+      border-radius: 10px;
+  }
+  .img-profile-com-size{
+    width: 200px;
+    border-radius: 10px;
+}
+  .img-profile-com-size:hover{
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
     .Com-parent {
         background: #f9f9fa;
       }
@@ -270,16 +325,19 @@ gap: 15px;
         border-radius: 4px;
       }
       .com-card-design:hover {
-        width: 480px;
-        height: 158px;
+        width: 240px;
+        height: auto;
+        margin: auto;
        padding: 10px;
         background: #ffffff;
       display: flex;
+      flex-direction: column;
       gap: 15px;
         /* Black/Opac */
         border: 1px solid orange;
         border-radius: 4px;
       }
+      
       .div-com h3{
           margin-top: 20px;
           font-size: 16px;
@@ -310,6 +368,27 @@ gap: 15px;
         display: none;
         
     }
+    .profile-card-com-design{
+      position: relative;
+      width: 200px;
+      margin: auto;
+  }
+  .profile-card-com-design:hover{
+    width: 200px;
+      position: relative;
+      margin: auto;
+      
+      border-radius: 10px;
+  }
+  .img-profile-com-size{
+    width: 200px;
+    border-radius: 10px;
+}
+  .img-profile-com-size:hover{
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
     .Com-parent {
         background: #f9f9fa;
       }
@@ -350,16 +429,19 @@ gap: 15px;
         border-radius: 4px;
       }
       .com-card-design:hover {
-        width: 480px;
-        height: 158px;
+        width: 240px;
+        height: auto;
+        margin: auto;
        padding: 10px;
         background: #ffffff;
       display: flex;
+      flex-direction: column;
       gap: 15px;
         /* Black/Opac */
         border: 1px solid orange;
         border-radius: 4px;
       }
+      
       .div-com h3{
           margin-top: 20px;
           font-size: 16px;
